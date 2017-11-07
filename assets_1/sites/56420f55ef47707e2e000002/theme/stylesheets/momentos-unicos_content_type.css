@@ -1,0 +1,41 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%; }
+
+.icon {
+  position: absolute;
+  top: 20px;
+  right: 60px; }
+
+.row h2 {
+  font-family: "Sansita One";
+  font-size: 24px;
+  margin: 35px 0 30px 0; }
+
+.mu-text {
+  background-color: #f2f0ec;
+  -webkit-box-shadow: 0px 20px 52px -1px #cdc6c6;
+  -moz-box-shadow: 0px 20px 52px -1px #cdc6c6;
+  box-shadow: 0px 20px 52px -1px #cdc6c6;
+  padding-bottom: 100px; }
+
+.images-title {
+  font-family: MontserratLight;
+  font-size: 14px;
+  color: #c8a698;
+  text-transform: uppercase; }
+
+.footer-image img {
+  vertical-align: bottom;
+  padding-left: 35px; }
+
+.p-bot {
+  margin-top: 30px;
+  padding-bottom: 100px; }
+
+.p-top {
+  padding-top: 30px; }
+
+.m-bot {
+  margin-bottom: 50px; }

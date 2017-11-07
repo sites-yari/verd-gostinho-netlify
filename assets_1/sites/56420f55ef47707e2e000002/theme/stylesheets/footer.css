@@ -1,0 +1,131 @@
+.attr-row-lang {
+  font-family: 'MontserratRegular';
+  font-size: 13px;
+  padding-top: 20px; }
+
+.vg-rights {
+  font-family: 'MontserratRegular';
+  font-size: 10px;
+  padding-top: 12px; }
+
+.vg-rights a:nth-child(2) {
+  padding-right: 10px; }
+
+.vg-rights a {
+  margin-top: -30px; }
+
+.lang a {
+  font-family: 'MontserratRegular';
+  padding-right: 15px;
+  color: #ffffff;
+  text-transform: uppercase; }
+
+.lang a:visited,
+.lang a:focus,
+.lang a:active,
+.lang a:hover {
+  font-family: "Montserrat Subrayada";
+  font-weight: 700;
+  text-decoration: none; }
+
+.footer-link a {
+  font-family: 'MontserratRegular';
+  padding-left: 30px;
+  text-transform: uppercase;
+  color: #ffffff; }
+
+.footer-link a:hover {
+  font-family: "Montserrat Subrayada";
+  font-weight: 700;
+  text-decoration: none;
+  color: #ffffff; }
+
+.newsletter {
+  left: 0;
+  font-family: 'MontserratRegular';
+  display: inline-block; }
+
+.newsletter input {
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid #ffffff;
+  font-size: 15px;
+  font-family: 'MontserratRegular';
+  vertical-align: top;
+  margin-right: 4px; }
+
+.bt-wrapper {
+  display: inline-block;
+  margin-top: -20px; }
+
+.newsletter button {
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  font-size: 40px;
+  float: right; }
+
+span.footer-link.footer-regioes {
+  float: left;
+  width: 192px; }
+
+.footer-link.footer-castas {
+  float: left;
+  width: 85px; }
+
+.footer-link.footer-faq {
+  float: left;
+  width: 60px; }
+
+.footer-link.footer-contactos {
+  float: left;
+  width: 117px; }
+
+@media (min-width: 992px) {
+  .vg-rights {
+    float: right;
+    width: 394px; }
+
+  .vg-rights a {
+    float: right; }
+
+  div .attr-row-bottom {
+    padding: 55px 0 7px 0; } }
+@media (max-width: 991px) {
+  .attr-row-bottom {
+    display: block;
+    text-align: center;
+    padding: 30px 0 7px 0; }
+
+  .vg-rights {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 12px; }
+
+  .vg-rights a:nth-child(1) {
+    padding: 15px; } }
+@media (max-width: 544px) {
+  .attr-row-lang {
+    display: block;
+    text-align: center; }
+
+  .languages {
+    padding-bottom: 15px; }
+
+  .lang a {
+    padding: 0 5px 0 5px; }
+
+  .footer-link a {
+    display: block;
+    padding: 0 15px 0 15px; } }
+@media (min-width: 544px) {
+  .position-relative span {
+    float: left;
+    margin: 9px 14px 0 0; }
+
+  .languages {
+    float: left; }
+
+  .vg-links {
+    float: right; } }

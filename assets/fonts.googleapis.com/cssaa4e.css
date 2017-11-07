@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Montserrat Subrayada';
+  font-style: normal;
+  font-weight: 400;
+  src: local('MontserratSubrayada-Regular'), url(https://fonts.gstatic.com/s/montserratsubrayada/v4/nzoCWCz0e9c7Mr2Gl8bbgmKug4NwxLoXRUZJcef-dI0.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat Subrayada';
+  font-style: normal;
+  font-weight: 700;
+  src: local('MontserratSubrayada-Bold'), url(https://fonts.gstatic.com/s/montserratsubrayada/v4/wf-IKpsHcfm0C9uaz9IeGAei4QJWNC4PgOO-IsX5D3Y.ttf) format('truetype');
+}

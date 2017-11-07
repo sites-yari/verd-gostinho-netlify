@@ -1,0 +1,30 @@
+a,
+a:hover {
+  color: inherit; }
+
+.p-text {
+  padding: 50px 0 50px 0; }
+
+.row.p-text div:nth-child(1) {
+  margin-top: 10px; }
+
+.p-text .col-lg-3 p a:nth-child(1) {
+  line-height: 25px;
+  font-family: Montserrat;
+  font-size: 13px;
+  text-transform: uppercase; }
+
+.p-text .col-lg-3 p a:hover {
+  font-family: 'Montserrat Subrayada';
+  font-weight: 700;
+  text-decoration: none; }
+
+.p-text div:nth-child(3) {
+  color: #c7a597;
+  text-transform: none; }
+
+.row.padding {
+  padding: 12px 0; }
+
+.container-fluid.m-bot {
+  margin-bottom: 25px; }

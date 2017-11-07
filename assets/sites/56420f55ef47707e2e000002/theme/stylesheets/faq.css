@@ -1,0 +1,69 @@
+.faq-title {
+  font-family: MontserratLight;
+  font-size: 14px;
+  margin: 50px 0 50px 0; }
+
+.p-text {
+  padding: 0 10px 0 10px; }
+
+.p-text p:nth-child(1) {
+  font-family: 'MontserratBold';
+  margin-bottom: 0px;
+  padding-top: 13px; }
+
+.p-text p:nth-child(2) {
+  padding-bottom: 15px; }
+
+.bg-color-Verde-d7cd89 {
+  background-color: #d7cd89;
+  margin-bottom: 20px; }
+
+.bg-color-Verde-8e812c {
+  background-color: #8e812c;
+  margin-bottom: 20px; }
+
+.bg-color-Verde-bdac3b {
+  background-color: #bdac3b;
+  margin-bottom: 20px; }
+
+.bg-color-Rosa-c7a597 {
+  background-color: #c7a597;
+  margin-bottom: 20px; }
+
+.bg-color-Castanho-d3a97f {
+  background-color: #d3a97f;
+  margin-bottom: 20px; }
+
+.bg-color-Cinza-f1efeb {
+  background-color: #f1efeb;
+  margin-bottom: 20px; }
+
+.multi-column {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2; }
+
+.multi-column .bg-color-verde-d7cd89,
+.multi-column .bg-color-verde-8e812c,
+.multi-column .bg-color-verde-bdac3b,
+.multi-column .bg-color-Rosa-c7a597,
+.multi-column .bg-color-Castanho-d3a97f,
+.multi-column .bg-color-Cinza-f1efeb {
+  -webkit-column-break-inside: avoid;
+  -moz-column-break-inside: avoid;
+  -o-column-break-inside: avoid;
+  -ms-column-break-inside: avoid;
+  column-break-inside: avoid;
+  overflow: hidden;
+  break-inside: avoid-column; }
+
+.multi-column .bg-color-verde-d7cd89:last-child,
+.multi-column .bg-color-verde-8e812c:last-child,
+.multi-column .bg-color-verde-bdac3b:last-child,
+.multi-column .bg-color-Rosa-c7a597:last-child,
+.multi-column .bg-color-Castanho-d3a97f:last-child,
+.multi-column .bg-color-Cinza-f1efeb:last-child {
+  margin: 0; }
+
+.row .hidden-sm.hidden-xs.col-md-offset-2.col-md-10.multi-column {
+  margin-bottom: 20px; }

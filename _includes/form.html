@@ -1,0 +1,70 @@
+{% if page.id == "pt" %}
+<div class="newsletter">
+    <form method="POST" action="https://formspree.io/websites_forms@yarilabs.com">
+        <div  class="position-relative">
+            <span>Subscreva a nossa newsletter</span>
+            <input type="text" name="Newsletter" placeholder="email" value="" required>
+            <div class="bt-wrapper">
+                <button type="submit" class="contact-form-button">
+                <i class="fa fa-angle-right"></i>
+                </button>
+            </div>
+        </div>
+    </form>
+
+    <script id="newsletter-subscriptions-form-fail-field-template" type="text/x-handlebars-template">
+        <span class="error" style="position: absolute; top: -18px; right: 68px;" data-role="form-field-error">{{message}}</span>
+    </script>
+
+    <script id="newsletter-subscriptions-form-success-template" type="text/x-handlebars-template">
+        <span>Obrigado! Passará a receber a nossa newsletter.</span>
+    </script>
+</div>
+
+{% elsif page.id == "fr" %}
+<div class="newsletter">
+    <form method="POST" action="https://formspree.io/websites_forms@yarilabs.com">
+        <div  class="position-relative">
+            <span>Abonnez-vous à notre newsletter</span>
+            <input type="text" name="Newsletter" placeholder="email" value="" required>
+            <div class="bt-wrapper">
+                <button type="submit" class="contact-form-button">
+                    <i class="fa fa-angle-right"></i>
+                </button>
+            </div>
+        </div>
+    </form>
+
+    <script id="newsletter-subscriptions-form-fail-field-template" type="text/x-handlebars-template">
+        <span class="error" style="position: absolute; top: -18px; right: 68px;" data-role="form-field-error">{{message}}</span>
+    </script>
+
+    <script id="newsletter-subscriptions-form-success-template" type="text/x-handlebars-template">
+        <span>Je vous remercie! Vous recevrez notre newsletter.</span>
+    </script>
+</div>
+
+
+{% elsif page.id == "en" %}
+<div class="newsletter">
+    <form method="POST" action="https://formspree.io/websites_forms@yarilabs.com" >
+        <div  class="position-relative">
+            <span>Subscribe to our newsletter</span>
+            <input type="text" name="Newsletter" placeholder="email" value="" required>
+            <div class="bt-wrapper">
+                <button type="submit" class="contact-form-button">
+                    <i class="fa fa-angle-right"></i>
+                </button>
+            </div>
+        </div>
+    </form>
+
+    <script id="newsletter-subscriptions-form-fail-field-template" type="text/x-handlebars-template">
+        <span class="error" style="position: absolute; top: -18px; right: 68px;" data-role="form-field-error">{{message}}</span>
+    </script>
+
+    <script id="newsletter-subscriptions-form-success-template" type="text/x-handlebars-template">
+        <span>Thank you! You will receive our newsletter.</span>
+    </script>
+</div>
+{% endif %}

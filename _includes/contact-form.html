@@ -1,0 +1,125 @@
+{% if page.id == "pt" %}
+<div class="col-md-3 col-xs-12">
+    <div class="formulario-contacto">
+        <form method="POST" action="https://formspree.io/websites_forms@yarilabs.com">
+            <table>
+                <tr>
+                <td >
+                    <input type="text" name="Nome" value="" placeholder='Nome' required>
+                </td>
+                </tr>
+                <tr>
+                <td >
+                    <input type="email" name="Email" value="" placeholder="E-mail" required>
+                </td>
+                </tr>
+                <tr>
+                <td >
+                    <input type="text" name="Assunto" value="" placeholder="Assunto" required>
+                </td>
+                </tr>
+                <tr>
+                <td >
+                    <textarea rows="8" cols="100" name="Mensagem" placeholder="Mensagem" required></textarea>
+                </td>
+                </tr>
+            </table>
+
+            <button class="contact-form-button" type="submit">Enviar</button>
+            <button class="contact-form-button btn-reset" type="reset">Limpar</button>
+        </form>
+    
+    <script id="contacts-form-fail-field-template" type="text/x-handlebars-template">
+        <span class="error" data-role="form-field-error">{{message}}</span>
+    </script>
+    
+    <script id="contacts-form-success-template" type="text/x-handlebars-template">
+        <span>A sua mensagem foi enviada com sucesso.</span>
+    </script>
+  
+    </div>
+</div>
+
+{% elsif page.id == "fr" %}
+<div class="col-md-3 col-xs-12">
+        <div class="formulario-contacto">
+            <form method="POST" action="https://formspree.io/websites_forms@yarilabs.com" >
+                <table>
+                    <tr>
+                    <td >
+                        <input type="text" name="Nome" value="" placeholder='Nom' required>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td >
+                        <input type="email" name="Email" value="" placeholder="E-mail" required>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td >
+                        <input type="text" name="Assunto" value="" placeholder="Sujet" required>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td >
+                        <textarea rows="8" cols="100" name="Mensagem" placeholder="Message" required></textarea>
+                    </td>
+                    </tr>
+                </table>
+                <button class="contact-form-button" type="submit">Envoyer</button>
+                <button class="contact-form-button btn-reset" type="reset">Effacer</button>
+            </form>
+  
+        <script id="contacts-form-fail-field-template" type="text/x-handlebars-template">
+            <span class="error" data-role="form-field-error">{{message}}</span>
+        </script>
+        
+        <script id="contacts-form-success-template" type="text/x-handlebars-template">
+            <span>Votre message a été envoyé avec succès.</span>
+        </script>
+  
+    </div>
+</div>
+
+{% elsif page.id == "en" %}
+<div class="col-md-3 col-xs-12">
+    <div class="formulario-contacto">
+        <form method="POST" action="https://formspree.io/websites_forms@yarilabs.com" >
+            <table>
+                <tr>
+                <td >
+                    <input type="text" name="Nome" value="" placeholder='Name' required>
+                </td>
+                </tr>
+                <tr>
+                <td >
+                    <input type="email" name="Email" value="" placeholder="E-mail" required>
+                </td>
+                </tr>
+                <tr>
+                <td >
+                    <input type="text" name="Assunto" value="" placeholder="Subject" required>
+                </td>
+                </tr>
+                <tr>
+                <td >
+                    <textarea rows="8" cols="100" name="Mensagem" placeholder="Message" required></textarea>
+                </td>
+                </tr>
+            </table>
+                <button class="contact-form-button" type="submit">Send</button>
+                <button class="contact-form-button btn-reset" type="reset">Clean</button>
+        </form>
+            
+        <script id="contacts-form-fail-field-template" type="text/x-handlebars-template">
+            <span class="error" data-role="form-field-error">{{message}}</span>
+        </script>
+        
+        <script id="contacts-form-success-template" type="text/x-handlebars-template">
+            <span>Your message has been successfully sent.</span>
+        </script>
+
+    </div>
+</div>
+
+{% endif %}

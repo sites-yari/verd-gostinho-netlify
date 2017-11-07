@@ -1,0 +1,16 @@
+body.verde-gosto {
+  background-color: #f2f0ec; }
+
+.m-bot {
+  margin-bottom: 30px; }
+
+.p-text {
+  padding: 50px 0 0 0;
+  margin-bottom: 70px; }
+
+.p-text .col-lg-3.col-lg-offset-3 p {
+  color: #c7a597;
+  text-transform: none; }
+
+.col-lg-9.col-lg-offset-3 {
+  padding: 0; }

@@ -1,0 +1,116 @@
+.bg-color-soft {
+  background-color: #f2f0ec;
+  background-size: cover; }
+
+ul.product-harvests {
+  padding-top: 30px;
+  font-family: "MontserratRegular";
+  font-size: 24px; }
+
+ul.product-harvests li a {
+  color: #c8a698;
+  text-decoration: none; }
+
+ul.product-harvests li a:hover,
+.product-harvests li a.active {
+  color: #000000; }
+
+ul {
+  list-style: none;
+  padding: 0; }
+
+ul li {
+  display: inline-block;
+  padding-right: 22px; }
+
+hr {
+  border-color: #946f61; }
+
+.other-kind-product img,
+.other-region-product img {
+  height: 200px; }
+
+.noP {
+  padding-right: 0;
+  padding-left: 0; }
+
+.padding50-70 {
+  padding: 50px 0 70px 0; }
+
+.product-name {
+  padding-top: 350px;
+  color: #FFFFFF;
+  font-family: "MontserratRegular";
+  font-size: 36px; }
+
+.product-kind {
+  color: #FFFFFF;
+  font-family: "Montserrat Subrayada";
+  font-size: 24px; }
+
+.large-bottle {
+  text-align: right;
+  margin-top: -405px; }
+
+.large-bottle img {
+  height: 575px; }
+
+.product-momentos-unicos {
+  padding-top: 25px;
+  padding-bottom: 100px;
+  font-family: "MontserratLight";
+  font-size: 14px;
+  color: #c8a698;
+  text-transform: uppercase; }
+
+.product-momentos-unicos ul {
+  text-align: right; }
+
+.noP p.product_property-description {
+  margin-bottom: 40px; }
+
+.product-properties-top,
+.product-properties-bottom {
+  padding-top: 25px;
+  padding-bottom: 90px; }
+
+.product-property {
+  font-family: "MontserratLight";
+  font-size: 16px; }
+
+.product_property-name {
+  color: #c8a698;
+  text-transform: uppercase; }
+
+.product_property-description {
+  white-space: pre-line; }
+
+.other-products h3,
+.product-momentos-unicos h3 {
+  font-family: "MontserratLight";
+  font-size: 14px;
+  color: #c8a698;
+  margin: 5px 0 50px 0;
+  text-transform: uppercase; }
+
+@media (min-width: 992px) {
+  .large-bottle {
+    padding-right: 110px; } }
+@media (min-width: 1200px) {
+  .large-bottle {
+    padding-right: 165px; } }
+@media (max-width: 767px) {
+  .large-bottle {
+    padding-right: 0;
+    margin-top: 25px;
+    text-align: center; }
+
+  .product-name {
+    padding-top: 130px;
+    text-align: center; }
+
+  .product-kind {
+    text-align: center; }
+
+  ul.product-harvests {
+    text-align: center; } }
